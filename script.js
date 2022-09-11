@@ -3,6 +3,7 @@
 const burgerButton = document.querySelector(
   '.burger-button'
 );
+
 const mobileNav = document.querySelector('.main-nav');
 
 burgerButton.addEventListener('click', function () {
