@@ -1,5 +1,9 @@
 'use strict';
 
+window.addEventListener('load', function () {
+  body.classList.remove('preload');
+});
+
 const burgerButton = document.querySelector(
   '.burger-button'
 );
